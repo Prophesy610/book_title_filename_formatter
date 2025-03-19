@@ -14,8 +14,8 @@ This script automatically corrects and standardizes filenames in a directory to 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/book-title-filename-formatter.git
-   cd book-title-filename-formatter
+   git clone https://github.com/yourusername/book_title_filename_formatter.git
+   cd book_title_filename_formatter
 
 Ensure you have Python 3.x installed.
 
@@ -66,9 +66,9 @@ To Kill a Mockingbird.epub
 
 The script applies the following book title grammar rules:
 
-- **Capitalize major words:** First and last words are always capitalized, along with any word that is not an article, preposition, or conjunction.
-- **Lowercase articles, prepositions, and conjunctions:** Articles like "the," "a," "an" and conjunctions like "and," "but" will be converted to lowercase unless they are at the start or end of the title.
-- **Keep punctuation intact:** Commas, periods, colons, etc., are retained in the filename.
+- Capitalize major words:** First and last words are always capitalized, along with any word that is not an article, preposition, or conjunction.
+- Lowercase articles, prepositions, and conjunctions:** Articles like "the," "a," "an" and conjunctions like "and," "but" will be converted to lowercase unless they are at the start or end of the title.
+- Keep punctuation intact:** Commas, periods, colons, etc., are retained in the filename.
 
 
 ## Configuration
